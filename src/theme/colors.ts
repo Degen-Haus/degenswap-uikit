@@ -3,10 +3,10 @@ import { Colors } from "./types";
 export const baseColors = {
   failure: "#f44560",
   primary: "#8cac0e",
-  primaryBright: "#ccff66",
+  primaryBright: "#f5fb7b",
   primaryDark: "#8cac0e",
   secondary: "#f3851d",
-  success: "#84b41f",
+  success: "#f5fb7b",
   warning: "#0633ff",
 };
 
@@ -51,7 +51,7 @@ export const lightColors: Colors = {
 export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
-  secondary: "#f3851d",
+  secondary: "#8cac0e",
   background: "#08060B",
   backgroundDisabled: "#3c3742",
   backgroundAlt: "#27262c",
@@ -74,7 +74,7 @@ export const darkColors: Colors = {
     cardHeader: "linear-gradient(111.68deg, #191326 0%, #ccff66 100%)",
     blue: "linear-gradient(180deg, #84b41f 0%, #353547 100%)",
     violet: "linear-gradient(180deg, #84b41f 0%, #ccff66 100%)",
-    violetAlt: "linear-gradient(180deg, #E9EAEB 0%, #ccff66 100%)",
+    violetAlt: "linear-gradient(180deg, #E9EA00 0%, #ccff66 100%)",
     gold: "linear-gradient(180deg, #FFD800 0%, #FDAB32 100%)",
     activeMenu: "linear-gradient(180deg, #576a0c 0%, #111406 100%)",
   },
