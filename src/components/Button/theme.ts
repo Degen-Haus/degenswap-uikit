@@ -46,7 +46,7 @@ export const styleVariants = {
   },
   [variants.SUCCESS]: {
     backgroundColor: "success",
-    color: "black",
+    color: "white",
   },
   [variants.TEXT]: {
     backgroundColor: "transparent",
